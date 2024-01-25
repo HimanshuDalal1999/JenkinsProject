@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T19:23:27 IST" name="Default suite" finished-at="2024-01-25T19:24:04 IST" duration-ms="36624">
+  <suite started-at="2024-01-25T20:37:20 IST" name="Default suite" finished-at="2024-01-25T20:37:49 IST" duration-ms="28759">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@7c37508a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-25T19:23:27 IST" name="Default test" finished-at="2024-01-25T19:24:04 IST" duration-ms="36624">
+    <test started-at="2024-01-25T20:37:20 IST" name="Default test" finished-at="2024-01-25T20:37:49 IST" duration-ms="28759">
       <class name="executions.amazonrunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T19:23:28 IST" name="setUpClass" finished-at="2024-01-25T19:23:28 IST" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T20:37:20 IST" name="setUpClass" finished-at="2024-01-25T20:37:21 IST" duration-ms="544" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1b5af65b]]>
+                <![CDATA[org.testng.TestRunner@154f8280]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T19:23:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-25T19:23:47 IST" duration-ms="18920" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T20:37:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-25T20:37:32 IST" duration-ms="11357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,25 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at executions.Homepagesteps.page_title_should_contains(Homepagesteps.java:30)
-at ✽.page title should contains "Shoppping"(file:///F:/eclipse/eclipse/ATT%2019%20August%20class/Jenkins_Maven_Project/src/test/resources/Executions/Homepage.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T19:23:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-25T19:24:00 IST" duration-ms="13462" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T20:37:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-25T20:37:43 IST" duration-ms="10794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +53,7 @@ at ✽.page title should contains "Shoppping"(file:///F:/eclipse/eclipse/ATT%201
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T19:24:00 IST" name="tearDownClass" finished-at="2024-01-25T19:24:04 IST" duration-ms="3636" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:executions.amazonrunner@7c37508a]" started-at="2024-01-25T20:37:43 IST" name="tearDownClass" finished-at="2024-01-25T20:37:49 IST" duration-ms="6032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
