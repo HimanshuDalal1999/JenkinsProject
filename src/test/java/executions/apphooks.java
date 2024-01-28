@@ -32,8 +32,11 @@ public class apphooks {
 		
 		System.out.println(path);
 
+		
+		
+		
 		FileInputStream fis = new FileInputStream(path);
-
+		
 		prop.load(fis);
 
 		String browsername = prop.getProperty("browser");
