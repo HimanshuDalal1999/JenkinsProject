@@ -48,12 +48,13 @@ public class apphooks {
 	}
 
 
-	@After
+	@After(order = 1)
 	public void tearDown()
 	{
 		driver.quit();
 	}
 
+	@After(order = 2)
 	public void TearDown(Scenario scenario)
 	{
 		boolean isFailed = scenario.isFailed();
