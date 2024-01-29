@@ -11,6 +11,9 @@ Then cart icon should get display
 
 
 
+
+
+
 #Scenario: checkout deals section
 #Given user is at the landing page
 #When user clicks on fashion link
