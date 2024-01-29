@@ -2,11 +2,14 @@ Feature: Home page functionality
 
 Scenario: verify title of page
 Given user is at the landing page
-Then page title should contains "Shoppping"
+Then page title should contains "Shoppingg"
 
 Scenario: verify cart icon
 Given user is at the landing page
 Then cart icon should get display
+
+
+
 
 #Scenario: checkout deals section
 #Given user is at the landing page
