@@ -6,9 +6,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class driverfactory {
 
-	
-	
-	
 	static  WebDriver driver;
 
 	public WebDriver initBrowsers(String browsername)
@@ -23,10 +20,10 @@ public class driverfactory {
 			 driver = new FirefoxDriver();
 		}
 		return driver;
-
-
 	}
 
+	
+	
 	public static WebDriver getDriver()
 	{
 		return driver;
