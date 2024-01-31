@@ -4,7 +4,6 @@ Scenario: verify title of page
 Given user is at the landing page
 Then page title should contains "Shoppping"
 
-
 Scenario: verify cart icon
 Given user is at the landing page
 Then cart icon should get display
